@@ -1,6 +1,6 @@
 ---
 name: support-ticket-triage
-description: Triage customer support tickets/emails/chats into categories, priority, and next action; draft responses and create reproducible steps; use for Zendesk/Intercom/Help Scout exports or pasted threads.
+description: 将客服 tickets/emails/chats 分诊为类别、优先级和下一步行动，起草回复并生成可复现步骤。适用于 Zendesk、Intercom、Help Scout 导出或粘贴的对话串。Keywords: support ticket, triage, customer support.
 metadata:
   short-description: Categorize and respond to support tickets
 ---

@@ -1,6 +1,6 @@
 ---
 name: pr-review-ci-fix
-description: Automated PR review and CI auto-fix for GitHub and GitLab using the Composio CLI. Pulls diffs, fetches failing job logs, posts review comments, and loops fix commits until checks go green.
+description: 使用 Composio CLI 为 GitHub/GitLab 做自动 PR review 和 CI auto-fix。会拉取 diff、获取失败 job logs、发布 review comments，并循环提交修复直到 checks 通过。Keywords: PR review, CI auto-fix, GitHub, GitLab.
 metadata:
   short-description: Automated PR review + CI auto-fix across GitHub/GitLab
 ---

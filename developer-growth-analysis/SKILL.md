@@ -1,6 +1,6 @@
 ---
 name: developer-growth-analysis
-description: Analyzes your recent Codex chat history to identify coding patterns, development gaps, and areas for improvement, curates relevant learning resources from HackerNews, and automatically sends a personalized growth report to your Slack DMs.
+description: 分析近期 Codex 聊天历史，识别编码模式、开发短板和改进方向，从 HackerNews 筛选相关学习资源，并自动发送个性化成长报告到 Slack DM。Keywords: developer growth, Codex history, learning report.
 ---
 
 # Developer Growth Analysis

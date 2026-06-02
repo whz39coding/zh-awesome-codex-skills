@@ -1,6 +1,6 @@
 ---
 name: internal-comms
-description: A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).
+description: 用公司偏好的格式撰写各类内部沟通材料。适用于状态报告、领导层更新、3P 更新、公司 newsletter、FAQ、事故报告、项目更新等 internal communications。Keywords: internal comms, status report, leadership update.
 license: Complete terms in LICENSE.txt
 ---
 

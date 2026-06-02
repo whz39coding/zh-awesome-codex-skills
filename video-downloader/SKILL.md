@@ -1,6 +1,6 @@
 ---
 name: youtube-downloader
-description: Download YouTube videos with customizable quality and format options. Use this skill when the user asks to download, save, or grab YouTube videos. Supports various quality settings (best, 1080p, 720p, 480p, 360p), multiple formats (mp4, webm, mkv), and audio-only downloads as MP3.
+description: 下载 YouTube 视频，并支持自定义质量和格式。适用于用户要求下载、保存或抓取 YouTube 视频；支持 best、1080p、720p、480p、360p，mp4/webm/mkv，以及 MP3 音频下载。Keywords: YouTube download, video downloader, MP3.
 ---
 
 # YouTube Video Downloader

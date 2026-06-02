@@ -1,6 +1,6 @@
 ---
 name: paperjsx
-description: Generate PPTX presentations, DOCX documents, XLSX spreadsheets, and PDF reports from structured JSON input using PaperJSX.
+description: 使用 PaperJSX 从结构化 JSON 输入生成 PPTX 演示文稿、DOCX 文档、XLSX 表格和 PDF 报告。Keywords: PaperJSX, PPTX, DOCX, XLSX, PDF.
 ---
 
 # PaperJSX Document Generation

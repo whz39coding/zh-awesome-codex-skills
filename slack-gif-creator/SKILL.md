@@ -1,6 +1,6 @@
 ---
 name: slack-gif-creator
-description: Toolkit for creating animated GIFs optimized for Slack, with validators for size constraints and composable animation primitives. This skill applies when users request animated GIFs or emoji animations for Slack from descriptions like "make me a GIF for Slack of X doing Y".
+description: 创建适合 Slack 的 animated GIFs 工具包，包含大小约束校验和可组合动画 primitives。适用于用户要求制作 Slack GIF 或 emoji animation。Keywords: Slack GIF, animated GIF, emoji animation.
 license: Complete terms in LICENSE.txt
 ---
 

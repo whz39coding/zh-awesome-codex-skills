@@ -1,6 +1,6 @@
 ---
 name: spreadsheet-formula-helper
-description: Write and debug spreadsheet formulas (Excel/Google Sheets), pivot tables, and array formulas; translate between dialects; use when users need working formulas with examples and edge-case checks.
+description: 编写和调试 Excel/Google Sheets 公式、透视表和数组公式，并在不同方言间转换。适用于用户需要可运行公式、示例和边界情况检查。Keywords: spreadsheet formulas, Excel, Google Sheets.
 metadata:
   short-description: Build/debug Excel or Sheets formulas
 ---

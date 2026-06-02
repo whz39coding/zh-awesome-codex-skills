@@ -1,6 +1,6 @@
 ---
 name: changelog-generator
-description: Automatically creates user-facing changelogs from git commits by analyzing commit history, categorizing changes, and transforming technical commits into clear, customer-friendly release notes. Turns hours of manual changelog writing into minutes of automated generation.
+description: 根据 git commits 自动生成面向用户的 changelog/release notes。会分析提交历史、分类变更，并把技术提交改写成清晰、客户友好的发布说明。Keywords: changelog, release notes, commit history.
 ---
 
 # Changelog Generator

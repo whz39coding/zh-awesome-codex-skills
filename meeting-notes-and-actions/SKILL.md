@@ -1,6 +1,6 @@
 ---
 name: meeting-notes-and-actions
-description: Turn meeting transcripts or rough notes into crisp summaries with decisions, risks, and owner-tagged action items; use for Zoom/Meet/Teams transcripts, call notes, or long meeting chats to generate share-ready outputs.
+description: 把会议转写或粗略笔记整理成清晰摘要，包含决策、风险和带负责人的行动项。适用于 Zoom/Meet/Teams 转写、电话记录或长会议聊天。Keywords: meeting notes, action items, summary.
 metadata:
   short-description: Meeting transcript to notes and actions
 ---

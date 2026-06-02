@@ -1,6 +1,6 @@
 ---
 name: notion-spec-to-implementation
-description: Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them.
+description: 把 Notion specs 转成实现计划、任务和进度跟踪。适用于实现 PRD/feature spec，并从中创建 Notion plans 和 tasks。Keywords: Notion spec, implementation plan, PRD.
 metadata:
   short-description: Turn Notion specs into implementation plans, tasks, and progress tracking
 ---

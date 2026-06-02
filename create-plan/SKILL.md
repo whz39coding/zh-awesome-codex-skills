@@ -1,6 +1,6 @@
 ---
 name: create-plan
-description: Create a concise plan. Use when a user explicitly asks for a plan related to a coding task.
+description: 为编码任务创建简洁计划。适用于用户明确要求制定 coding task plan、实施计划或执行步骤时。Keywords: plan, coding task, implementation plan.
 metadata:
   short-description: Create a plan
 ---

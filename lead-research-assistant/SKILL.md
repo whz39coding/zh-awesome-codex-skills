@@ -1,6 +1,6 @@
 ---
 name: lead-research-assistant
-description: Identifies high-quality leads for your product or service by analyzing your business, searching for target companies, and providing actionable contact strategies. Perfect for sales, business development, and marketing professionals.
+description: 通过分析业务、搜索目标公司并提供可执行联系策略，为产品或服务识别高质量 leads。适用于销售、BD 和市场团队。Keywords: lead research, sales, business development.
 ---
 
 # Lead Research Assistant

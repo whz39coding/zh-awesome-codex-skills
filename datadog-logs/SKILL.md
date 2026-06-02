@@ -1,6 +1,6 @@
 ---
 name: datadog-logs
-description: Query and filter Datadog logs from the shell using the Composio CLI. Run scoped log searches, pivot across services/environments, and export structured JSON for downstream agents instead of click-driving the Datadog UI.
+description: 使用 Composio CLI 从 shell 查询和过滤 Datadog logs，按服务/环境切换检索范围，并导出结构化 JSON 供后续 agent 使用，避免手动点击 Datadog UI。Keywords: Datadog logs, Composio CLI, JSON export.
 metadata:
   short-description: Datadog log filtering via the Composio CLI
 ---

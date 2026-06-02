@@ -1,6 +1,6 @@
 ---
 name: connect
-description: Connect Codex to any app via the Composio CLI. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 1000+ services from the terminal.
+description: 通过 Composio CLI 将 Codex 连接到外部应用，从终端执行真实动作，例如发送邮件、创建 issue、发布消息、更新数据库，支持 Gmail、Slack、GitHub、Notion 等 1000+ 服务。Keywords: Composio CLI, Gmail, Slack, GitHub, Notion.
 ---
 
 # Connect

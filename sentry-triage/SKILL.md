@@ -1,6 +1,6 @@
 ---
 name: sentry-triage
-description: Diagnose Sentry issues without copy-pasting stack traces. Uses the Composio CLI to pull issue details, events, breadcrumbs, and suspect commits, then maps the frames to local source so the agent can propose a fix directly.
+description: 无需复制粘贴堆栈即可诊断 Sentry issues。使用 Composio CLI 拉取 issue details、events、breadcrumbs 和 suspect commits，并把 frames 映射到本地源码以直接提出修复。Keywords: Sentry, triage, stack frames.
 metadata:
   short-description: Sentry error diagnosis via the Composio CLI
 ---

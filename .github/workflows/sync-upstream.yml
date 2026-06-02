@@ -1,0 +1,50 @@
+name: Sync upstream
+
+on:
+  schedule:
+    - cron: "30 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Fetch upstream
+        run: |
+          git remote add upstream https://github.com/ComposioHQ/awesome-codex-skills.git || true
+          git fetch upstream master
+
+      - name: Merge upstream into sync branch
+        run: |
+          git checkout -B sync-upstream
+          git merge upstream/master --no-edit -X ours
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: sync-upstream
+          base: master
+          title: "chore: sync upstream awesome-codex-skills"
+          body: |
+            自动同步上游仓库 ComposioHQ/awesome-codex-skills。
+
+            合并前请检查：
+            - 是否新增或删除 skills
+            - README 中文索引是否需要更新
+            - 上游是否新增 LICENSE、NOTICE 或版权相关说明
+          commit-message: "chore: sync upstream awesome-codex-skills"

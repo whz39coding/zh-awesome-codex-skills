@@ -1,6 +1,6 @@
 ---
 name: helium-mcp
-description: Search real-time news with bias scoring, get live stock/ETF/crypto data with AI analysis, ML options pricing, balanced news synthesis, and meme search via the Helium MCP server.
+description: 通过 Helium MCP server 搜索实时新闻并给出 bias scoring，获取股票/ETF/加密货币实时数据和 AI 分析，支持 ML options pricing、平衡新闻综合和 meme search。Keywords: Helium MCP, real-time news, market data.
 ---
 
 # Helium MCP — News, Markets & AI Intelligence

@@ -1,6 +1,6 @@
 ---
 name: codebase-migrate
-description: Run large codebase migrations and multi-file refactors. Uses the Composio CLI to coordinate issue tracking, batched PRs, and CI verification while the agent executes the transforms locally across hundreds of files.
+description: 执行大型代码库迁移和多文件重构。通过 Composio CLI 协调 issue 跟踪、分批 PR 和 CI 验证，同时由 agent 在本地跨数百个文件执行变换。Keywords: migration, refactor, batched PRs.
 metadata:
   short-description: Codebase migrations + multi-file refactors
 ---

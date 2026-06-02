@@ -1,6 +1,6 @@
 ---
 name: domain-name-brainstormer
-description: Generates creative domain name ideas for your project and checks availability across multiple TLDs (.com, .io, .dev, .ai, etc.). Saves hours of brainstorming and manual checking.
+description: 为项目生成有创意的域名候选，并检查多个 TLD 的可用性，例如 .com、.io、.dev、.ai 等，减少手动头脑风暴和查询时间。Keywords: domain names, availability, TLD.
 ---
 
 # Domain Name Brainstormer

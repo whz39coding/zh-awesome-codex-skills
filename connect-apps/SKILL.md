@@ -1,6 +1,6 @@
 ---
 name: connect-apps
-description: Connect Claude to external apps via the Composio CLI. Use this skill when the user wants to send emails, create issues, post messages, or take actions across Gmail, Slack, GitHub, Notion, and 1000+ services from the terminal.
+description: 通过 Composio CLI 将 Claude/Codex 连接到外部应用。适用于用户希望从终端发送邮件、创建 issue、发布消息，或操作 Gmail、Slack、GitHub、Notion 等 1000+ 服务。Keywords: app connection, Composio CLI, external apps.
 ---
 
 # Connect Apps

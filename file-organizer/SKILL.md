@@ -1,6 +1,6 @@
 ---
 name: file-organizer
-description: Intelligently organizes your files and folders across your computer by understanding context, finding duplicates, suggesting better structures, and automating cleanup tasks. Reduces cognitive load and keeps your digital workspace tidy without manual effort.
+description: 基于上下文智能整理电脑中的文件和文件夹，查找重复文件、建议更好的目录结构并自动清理，降低认知负担并保持工作区整洁。Keywords: file organizer, cleanup, duplicates.
 ---
 
 # File Organizer

@@ -1,6 +1,6 @@
 ---
 name: issue-triage
-description: Triage Linear or Jira backlogs and run bug sweeps via the Composio CLI. Bulk-fetch issues, dedupe, relabel, reassign, and post summaries — all from the shell without clicking through the UI.
+description: 通过 Composio CLI 分诊 Linear 或 Jira backlogs，并执行 bug sweeps。可批量拉取 issues、去重、重打标签、重新分配并发布摘要。Keywords: Linear, Jira, issue triage.
 metadata:
   short-description: Linear/Jira triage + bug sweeps via the Composio CLI
 ---

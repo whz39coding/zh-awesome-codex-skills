@@ -1,6 +1,6 @@
 ---
 name: deploy-pipeline
-description: Run end-to-end deploy pipelines across Stripe, Supabase, and Vercel using the Composio CLI. Promote Stripe products, push Supabase migrations, ship Vercel deployments, and verify with post-deploy checks — all from one script.
+description: 使用 Composio CLI 执行跨 Stripe、Supabase、Vercel 的端到端部署流水线，包括 Stripe 产品发布、Supabase migration、Vercel deployment 和部署后验证。Keywords: deploy pipeline, Stripe, Supabase, Vercel.
 metadata:
   short-description: Stripe/Supabase/Vercel deploy pipelines
 ---

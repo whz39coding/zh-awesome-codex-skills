@@ -1,6 +1,6 @@
 ---
 name: email-draft-polish
-description: Draft, rewrite, or condense emails with target tone, length, and audience; use for cold outreach, replies, status updates, or escalations where clarity and brevity matter.
+description: 按目标语气、长度和受众起草、改写或压缩邮件。适用于冷启动外联、回复、状态更新、升级沟通等需要清晰和简洁表达的场景。Keywords: email draft, rewrite, polish.
 metadata:
   short-description: Draft or polish emails to fit tone/length
 ---

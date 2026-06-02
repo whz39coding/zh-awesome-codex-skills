@@ -1,6 +1,6 @@
 ---
 name: brand-guidelines
-description: Applies OpenAI's brand colors and typography to any artifact that should match the Codex/OpenAI look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.
+description: 将 OpenAI/Codex 品牌色、字体和视觉规范应用到文档、幻灯片、网页或其他 artifact。适用于需要品牌色、样式指南、视觉格式或公司设计标准的任务。Keywords: OpenAI brand, Codex style, visual formatting.
 license: Complete terms in LICENSE.txt
 ---
 
