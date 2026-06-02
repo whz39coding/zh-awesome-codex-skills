@@ -31,20 +31,36 @@ jobs:
 
       - name: Merge upstream into sync branch
         run: |
-          git checkout -B sync-upstream
+          git checkout -B sync-upstream origin/master
           git merge upstream/master --no-edit -X ours
 
-      - name: Create pull request
-        uses: peter-evans/create-pull-request@v6
-        with:
-          branch: sync-upstream
-          base: master
-          title: "chore: sync upstream awesome-codex-skills"
-          body: |
-            自动同步上游仓库 ComposioHQ/awesome-codex-skills。
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet origin/master..sync-upstream; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
 
-            合并前请检查：
-            - 是否新增或删除 skills
-            - README 中文索引是否需要更新
-            - 上游是否新增 LICENSE、NOTICE 或版权相关说明
-          commit-message: "chore: sync upstream awesome-codex-skills"
+      - name: Push sync branch
+        if: steps.changes.outputs.has_changes == 'true'
+        run: git push --force-with-lease origin sync-upstream
+
+      - name: Create or update pull request
+        if: steps.changes.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr view sync-upstream --base master --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1 || \
+          gh pr create \
+            --repo "$GITHUB_REPOSITORY" \
+            --head sync-upstream \
+            --base master \
+            --title "chore: sync upstream awesome-codex-skills" \
+            --body "自动同步上游仓库 ComposioHQ/awesome-codex-skills。
+
+合并前请检查：
+- 是否新增或删除 skills
+- README 中文索引是否需要更新
+- 上游是否新增 LICENSE、NOTICE 或版权相关说明"
